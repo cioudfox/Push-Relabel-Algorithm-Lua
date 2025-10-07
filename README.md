@@ -5,6 +5,8 @@ Project for CPSC 535: Advanced Algorithms
 ## Description
 Push Relabel Algorithm from Goldberg Tarjan implemented in Lua code. Random test samples of max flow graphs are generated and is run in comparison with Ford Fulkerson Algorithms. On paper, push relabel will have a better time complexity than Ford Fulkerson Algorithms with large sample sizes. However, depending on samples, the greedy method of the ford fulkerson algorithms can sometimes win over push-relabel. 
 
+https://github.com/user-attachments/assets/2f8ab3bb-b5a2-4836-a021-7bd8f42f678d
+
 ## Implementation of Random Matrix
 Matrix values (u,v) = w correspond to a directed flow of w from u to v in a Max Flow Graph
 p is a probability value of whether or not a edge will be generated from between vertexes u and v.
